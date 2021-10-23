@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="levelMenu" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="570.0" prefWidth="1020.0" xmlns="http://javafx.com/javafx/11.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="unsw.dungeon.LevelMenuController">
+   <children>
+      <ImageView fx:id="menuImage" fitHeight="578.0" fitWidth="1031.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="easybtm" layoutX="50.0" layoutY="248.0" mnemonicParsing="false" onAction="#handleEasy" prefHeight="83.0" prefWidth="183.0" text="Easy" />
+      <Button fx:id="mediumbtm" layoutX="278.0" layoutY="248.0" mnemonicParsing="false" onAction="#handleMedium" prefHeight="83.0" prefWidth="194.0" text="Meidum" />
+      <Button fx:id="hardbtm" layoutX="516.0" layoutY="248.0" mnemonicParsing="false" onAction="#handleHard" prefHeight="83.0" prefWidth="194.0" text="Hard" />
+      <Button layoutX="432.0" layoutY="409.0" mnemonicParsing="false" onAction="#handleBackToMain" prefHeight="54.0" prefWidth="129.0" text="Back to Main" />
+      <Button fx:id="hellbtm" layoutX="758.0" layoutY="248.0" mnemonicParsing="false" onAction="#handlehell" prefHeight="83.0" prefWidth="194.0" text="Hell" />
+   </children>
+</Pane>

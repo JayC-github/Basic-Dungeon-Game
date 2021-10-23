@@ -1,0 +1,643 @@
+{
+  "width": 18,
+  "height": 16,
+  "entities": [
+
+    {
+      "id": 6,
+      "x": 5,
+      "y": 1,
+      "type": "key"
+    },{
+      "x": 7,
+      "y": 3,
+      "type": "treasure"
+    },{
+      "x": 8,
+      "y": 3,
+      "type": "treasure"
+    },{
+      "id": 6,
+      "x": 6,
+      "y": 3,
+      "type": "door"
+    },
+    {
+      "x": 0,
+      "y": 0,
+      "type": "magma"
+    },
+    {
+      "x": 1,
+      "y": 0,
+      "type": "magma"
+    },
+    {
+      "x": 2,
+      "y": 0,
+      "type": "magma"
+    },
+    {
+      "x": 3,
+      "y": 0,
+      "type": "magma"
+    },
+    {
+      "x": 4,
+      "y": 0,
+      "type": "magma"
+    },
+    {
+      "x": 5,
+      "y": 0,
+      "type": "magma"
+    },
+    {
+      "x": 6,
+      "y": 0,
+      "type": "magma"
+    },
+    {
+      "x": 7,
+      "y": 0,
+      "type": "magma"
+    },
+    {
+      "x": 8,
+      "y": 0,
+      "type": "magma"
+    },
+    {
+      "x": 9,
+      "y": 0,
+      "type": "magma"
+    },
+    {
+      "x": 10,
+      "y": 0,
+      "type": "magma"
+    },
+    {
+      "x": 11,
+      "y": 0,
+      "type": "magma"
+    },
+    {
+      "x": 12,
+      "y": 0,
+      "type": "magma"
+    },
+    {
+      "x": 13,
+      "y": 0,
+      "type": "magma"
+    },
+    {
+      "x": 14,
+      "y": 0,
+      "type": "magma"
+    },
+    {
+      "x": 15,
+      "y": 0,
+      "type": "magma"
+    },
+    {
+      "x": 16,
+      "y": 0,
+      "type": "magma"
+    },
+    {
+      "x": 17,
+      "y": 0,
+      "type": "magma"
+    },
+    {
+      "x": 0,
+      "y": 1,
+      "type": "magma"
+    },
+    {
+      "x": 1,
+      "y": 1,
+      "type": "player"
+    },
+    {
+      "x": 6,
+      "y": 1,
+      "type": "sword"
+    },
+    {
+      "x": 17,
+      "y": 1,
+      "type": "magma"
+    },
+    {
+      "x": 0,
+      "y": 2,
+      "type": "magma"
+    },
+    {
+      "x": 3,
+      "y": 2,
+      "type": "magma"
+    },
+    {
+      "x": 6,
+      "y": 2,
+      "type": "magma"
+    },
+    {
+      "x": 7,
+      "y": 2,
+      "type": "magma"
+    },
+    {
+      "x": 8,
+      "y": 2,
+      "type": "magma"
+    },
+    {
+      "x": 9,
+      "y": 2,
+      "type": "magma"
+    },
+    {
+      "x": 12,
+      "y": 2,
+      "type": "magma"
+    },
+    {
+      "x": 13,
+      "y": 2,
+      "type": "magma"
+    },
+    {
+      "x": 14,
+      "y": 2,
+      "type": "magma"
+    },
+    {
+      "x": 15,
+      "y": 2,
+      "type": "magma"
+    },
+    {
+      "x": 17,
+      "y": 2,
+      "type": "magma"
+    },
+    {
+      "x": 0,
+      "y": 3,
+      "type": "magma"
+    },
+    {
+      "x": 3,
+      "y": 3,
+      "type": "magma"
+    },
+    {
+      "x": 4,
+      "y": 3,
+      "type": "magma"
+    },
+    {
+      "x": 15,
+      "y": 3,
+      "type": "magma"
+    },
+    {
+      "x": 17,
+      "y": 3,
+      "type": "magma"
+    },
+    {
+      "x": 0,
+      "y": 4,
+      "type": "magma"
+    },
+    {
+      "x": 8,
+      "y": 4,
+      "type": "magma"
+    },
+    {
+      "x": 17,
+      "y": 4,
+      "type": "magma"
+    },
+    {
+      "x": 0,
+      "y": 5,
+      "type": "magma"
+    },
+    {
+      "x": 3,
+      "y": 5,
+      "type": "enemy"
+    },
+    {
+      "x": 4,
+      "y": 6,
+      "type": "enemy"
+
+    },
+    {
+      "x": 8,
+      "y": 5,
+      "type": "magma"
+    },
+    {
+      "x": 17,
+      "y": 5,
+      "type": "magma"
+    },
+    {
+      "x": 0,
+      "y": 6,
+      "type": "magma"
+    },
+    {
+      "x": 6,
+      "y": 6,
+      "type": "magma"
+    },
+    {
+      "x": 8,
+      "y": 6,
+      "type": "magma"
+    },
+    {
+      "x": 9,
+      "y": 6,
+      "type": "magma"
+    },
+    {
+      "x": 13,
+      "y": 6,
+      "type": "magma"
+    },
+    {
+      "x": 17,
+      "y": 6,
+      "type": "magma"
+    },
+    {
+      "x": 0,
+      "y": 7,
+      "type": "magma"
+    },
+    {
+      "x": 6,
+      "y": 7,
+      "type": "magma"
+    },
+    {
+      "x": 12,
+      "y": 7,
+      "type": "magma"
+    },
+    {
+      "x": 13,
+      "y": 7,
+      "type": "magma"
+    },
+    {
+      "x": 17,
+      "y": 7,
+      "type": "magma"
+    },
+    {
+      "x": 0,
+      "y": 8,
+      "type": "magma"
+    },
+    {
+      "x": 3,
+      "y": 8,
+      "type": "magma"
+    },
+    {
+      "x": 4,
+      "y": 8,
+      "type": "magma"
+    },
+    {
+      "x": 5,
+      "y": 8,
+      "type": "magma"
+    },
+    {
+      "x": 6,
+      "y": 8,
+      "type": "magma"
+    },
+    {
+      "x": 8,
+      "y": 8,
+      "type": "magma"
+    },
+    {
+      "x": 9,
+      "y": 8,
+      "type": "magma"
+    },
+    {
+      "x": 10,
+      "y": 8,
+      "type": "magma"
+    },
+    {
+      "x": 13,
+      "y": 8,
+      "type": "magma"
+    },
+    {
+      "x": 17,
+      "y": 8,
+      "type": "magma"
+    },
+    {
+      "x": 0,
+      "y": 9,
+      "type": "magma"
+    },
+    {
+      "x": 9,
+      "y": 9,
+      "type": "magma"
+    },
+    {
+      "x": 13,
+      "y": 9,
+      "type": "magma"
+    },
+    {
+      "x": 14,
+      "y": 9,
+      "type": "magma"
+    },
+    {
+      "x": 17,
+      "y": 9,
+      "type": "magma"
+    },
+    {
+      "x": 0,
+      "y": 10,
+      "type": "magma"
+    },
+    {
+      "x": 3,
+      "y": 10,
+      "type": "magma"
+    },
+    {
+      "x": 5,
+      "y": 10,
+      "type": "magma"
+    },
+    {
+      "x": 6,
+      "y": 10,
+      "type": "magma"
+    },
+    {
+      "x": 7,
+      "y": 10,
+      "type": "treasure"
+    },
+    {
+      "x": 11,
+      "y": 10,
+      "type": "invincibility"
+    },
+    {
+      "x": 17,
+      "y": 10,
+      "type": "magma"
+    },
+    {
+      "x": 0,
+      "y": 11,
+      "type": "magma"
+    },
+    {
+      "x": 3,
+      "y": 11,
+      "type": "magma"
+    },
+    {
+      "x": 6,
+      "y": 11,
+      "type": "magma"
+    },
+    {
+      "x": 8,
+      "y": 11,
+      "type": "magma"
+    },
+    {
+      "x": 9,
+      "y": 11,
+      "type": "magma"
+    },
+    {
+      "x": 10,
+      "y": 11,
+      "type": "magma"
+    },
+    {
+      "x": 12,
+      "y": 11,
+      "type": "magma"
+    },
+    {
+      "x": 17,
+      "y": 11,
+      "type": "magma"
+    },
+    {
+      "x": 0,
+      "y": 12,
+      "type": "magma"
+    },
+    {
+      "x": 3,
+      "y": 12,
+      "type": "magma"
+    },
+    {
+      "x": 9,
+      "y": 12,
+      "type": "magma"
+    },
+    {
+      "x": 12,
+      "y": 12,
+      "type": "magma"
+    },
+    {
+      "x": 17,
+      "y": 12,
+      "type": "magma"
+    },
+    {
+      "x": 0,
+      "y": 13,
+      "type": "magma"
+    },
+    {
+      "x": 3,
+      "y": 13,
+      "type": "magma"
+    },
+    {
+      "x": 4,
+      "y": 13,
+      "type": "magma"
+    },
+    {
+      "x": 5,
+      "y": 13,
+      "type": "magma"
+    },
+    {
+      "x": 12,
+      "y": 13,
+      "type": "magma"
+    },
+    {
+      "x": 13,
+      "y": 13,
+      "type": "magma"
+    },
+    {
+      "x": 14,
+      "y": 13,
+      "type": "magma"
+    },
+    {
+      "x": 17,
+      "y": 13,
+      "type": "magma"
+    },
+    {
+      "x": 0,
+      "y": 14,
+      "type": "magma"
+    },
+    {
+      "x": 17,
+      "y": 14,
+      "type": "magma"
+    },
+    {
+      "x": 0,
+      "y": 15,
+      "type": "magma"
+    },
+    {
+      "x": 1,
+      "y": 15,
+      "type": "magma"
+    },
+    {
+      "x": 2,
+      "y": 15,
+      "type": "magma"
+    },
+    {
+      "x": 3,
+      "y": 15,
+      "type": "magma"
+    },
+    {
+      "x": 4,
+      "y": 15,
+      "type": "magma"
+    },
+    {
+      "x": 5,
+      "y": 15,
+      "type": "magma"
+    },
+    {
+      "x": 6,
+      "y": 15,
+      "type": "magma"
+    },
+    {
+      "x": 7,
+      "y": 15,
+      "type": "magma"
+    },
+    {
+      "x": 8,
+      "y": 15,
+      "type": "magma"
+    },
+    {
+      "x": 9,
+      "y": 15,
+      "type": "magma"
+    },
+    {
+      "x": 10,
+      "y": 15,
+      "type": "magma"
+    },
+    {
+      "x": 11,
+      "y": 15,
+      "type": "magma"
+    },
+    {
+      "x": 12,
+      "y": 15,
+      "type": "magma"
+    },
+    {
+      "x": 13,
+      "y": 15,
+      "type": "magma"
+    },
+    {
+      "x": 14,
+      "y": 15,
+      "type": "magma"
+    },
+    {
+      "x": 15,
+      "y": 15,
+      "type": "magma"
+    },
+    {
+      "x": 16,
+      "y": 15,
+      "type": "magma"
+    },
+    {
+      "x": 17,
+      "y": 15,
+      "type": "magma"
+    },
+    {
+      "x":2,
+      "y":1,
+      "type":"bow"
+    }
+  ],
+  "goal-condition": {
+    "goal": "AND",
+    "subgoals": [
+      {
+        "goal": "enemies"
+      },
+      {
+        "goal": "treasure"
+      }
+    ]
+  }
+}

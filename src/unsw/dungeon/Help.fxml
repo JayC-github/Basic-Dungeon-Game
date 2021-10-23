@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane fx:id="instructions" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.4" xmlns:fx="http://javafx.com/fxml/1" fx:controller="unsw.dungeon.HelpController">
+   <children>
+      <Pane layoutY="6.0" prefHeight="266.0" prefWidth="600.0">
+         <children>
+            <ImageView fx:id="boulder" fitHeight="53.0" fitWidth="31.0" layoutX="29.0" layoutY="218.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/boulder.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="exit" fitHeight="43.0" fitWidth="31.0" layoutX="29.0" layoutY="32.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/exit.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="floorswitch" fitHeight="43.0" fitWidth="31.0" layoutX="29.0" layoutY="174.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/pressure_plate.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="door" fitHeight="31.0" fitWidth="31.0" layoutX="29.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/closed_door.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="potion" fitHeight="31.0" fitWidth="36.0" layoutX="192.0" layoutY="218.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/brilliant_blue_new.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="treasure" fitHeight="43.0" fitWidth="31.0" layoutX="192.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/gold_pile.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="key" fitHeight="31.0" fitWidth="31.0" layoutX="192.0" layoutY="78.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/key.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="portal" fitHeight="39.0" fitWidth="31.0" layoutX="29.0" layoutY="127.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/portal.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="enemy" fitHeight="38.0" fitWidth="31.0" layoutX="372.0" layoutY="33.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/deep_elf_master_archer.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="sword" fitHeight="55.0" fitWidth="31.0" layoutX="192.0" layoutY="126.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../images/greatsword_1_new.png" />
+               </image>
+            </ImageView>
+            <Text fill="#171616" layoutX="73.0" layoutY="61.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Exit ">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#141313" layoutX="71.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Door">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#2f2c2c" layoutX="66.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Portal">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#0d0d0d" layoutX="72.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Switch">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#252323" layoutX="67.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Boulder">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#1b1a1a" layoutX="237.0" layoutY="239.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Invincibility Potion">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#252323" layoutX="235.0" layoutY="148.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sword">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#282525" layoutX="240.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Treasure">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#171616" layoutX="235.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Key">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#141313" layoutX="412.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Enemy">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#141313" layoutX="412.0" layoutY="104.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Magma">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <ImageView fx:id="magma" fitHeight="35.0" fitWidth="35.0" layoutX="369.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true" />
+            <Text fill="#141313" layoutX="235.0" layoutY="195.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bow">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <ImageView fx:id="bow" fitHeight="35.0" fitWidth="35.0" layoutX="189.0" layoutY="170.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true" />
+            <Button fx:id="backButton" layoutX="512.0" mnemonicParsing="false" onAction="#backtoScreen" prefHeight="40.0" prefWidth="81.0" style="-fx-background-image: url('/brick_brown_0.png');" text="Return" textFill="#1e1c1c">
+               <font>
+                  <Font name="Georgia" size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+      <Text fill="#252323" layoutX="167.0" layoutY="325.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Move">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="arrowkey" fitHeight="115.0" fitWidth="147.0" layoutX="14.0" layoutY="271.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="space" fitHeight="72.0" fitWidth="263.0" layoutX="236.0" layoutY="308.0" pickOnBounds="true" preserveRatio="true" />
+      <Text fill="#252323" layoutX="523.0" layoutY="335.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Interact">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#252323" layoutX="523.0" layoutY="356.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pick up">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#252323" layoutX="523.0" layoutY="377.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Attack">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>
